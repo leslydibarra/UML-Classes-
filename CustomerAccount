@@ -10,19 +10,17 @@ public class CustomerAccount {
         //called main argument
         //CustomerCreate.accountReturn();
     }
-    public static getAccountName(String accountName){
+    public static boolean setAccountName(String accountName){
         //account name information is formatted/verified for duplicates and stored/sent to database
         //returns a boolean true or false if the account has 0 duplicate names/ has 0 errors
     }
-    public static getAccountEmail(String accountEmail){
+    public static boolean setAccountEmail(String accountEmail){
         //account email is formatted/verified for duplicates and sent to database
         //returns a boolean true or false if the account has a pre-existing email or not
     }
-    public static getAccountCredit(int cardNumber){
+    public static boolean setAccountCredit(int cardNumber){
         //account credit/payment method is connected with the verified email and account name (Can be duplicate in the system)
         //adds credit value to the list of tied values connected with account name and email 
+        //return a boolean true or false if the credit card info is correct
     }
-    private accountReturn(){
-        //returns a boolean value that either is true, meaning every process of the account creation is valid and an account has been made
-        //returns a boolean value that can be false, meaning that the process detected an error and the account cannot be created. 
-    }
+

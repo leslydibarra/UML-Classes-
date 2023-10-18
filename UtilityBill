@@ -1,0 +1,35 @@
+public class UtilityBill {
+        String paymentDate //date the bill needs to be paid
+        int amount //amount the customer needs to pay
+        bool isPaid //if the bill is paid or not
+        bool isLate //if the bill is late
+        int lateFee //fee amount added to bill if late
+        
+    public static main (String[] args)
+    {
+
+    }
+    public static boolean setAmount(int amount){
+        //takes in an integer and verifies the format is correct
+        //sets the amount needed to be paid
+        //returns a boolean on whether setting the amount was sucessful
+    }
+    public static boolean setDate(String date){
+        //sets the date and verifies it
+        //returns a boolean true or false if setting the date was sucessful
+    }
+
+    public static boolean setLateFee(int fee){
+        //takes an integer fee
+        //sets the fee and verifies it
+        //returns a boolean true or false if setting the fee was sucessful
+    }
+
+    public static boolean payBill(int payment){
+        //takes an integer payment
+        //if the payment goes through then isPaid is set to true and returns a boolean true or false if the payment was sucessful
+    }
+
+    private static boolean setLate(){
+        //if the bill hasnt been paid by the date, the boolean isLate is set to True and the lateFee is added to the amount
+    }
